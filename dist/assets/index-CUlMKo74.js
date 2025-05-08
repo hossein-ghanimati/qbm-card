@@ -6,6 +6,6 @@ const handleCopy = (e) => {
   //@ts-ignore
   const name = e.currentTarget.dataset?.name || '';
 
-  alert(` ${name} کپی شد ✅`)
   navigator.clipboard.writeText(text);
+  alert(` ${name} کپی شد ✅`)
 }
