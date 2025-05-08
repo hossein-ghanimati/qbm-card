@@ -5,8 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="./vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + TS</title>
-    <script type="module" crossorigin src="./assets/index-DMHRq2d3.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-BRChjaXl.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-DpHZVotQ.css">
   </head>
   <body>
     <div id="app" class="container p-4 sm:p-8 w-full h-screen flex justify-center items-center bg-white text-gray-900 font-sans font-bold">
@@ -18,10 +17,10 @@
         </div>
         <div class="h-1/2 z-10 px-6 sm:px-8 -translate-y-8">
           <div class="space-y-1">
-            <h2 class="text-lg sm:text-xl flex items-center justify-center">
+            <h2 class="text-lg sm:text-xl flex items-center justify-center cursor-pointer" data-name="شماره شبا" onclick="handleCopy(event)">
               IR0000000000000000000000000000
             </h2>
-            <h2 class=" text-xl sm:text-2xl flex items-center justify-between ">
+            <h2 class=" text-xl sm:text-2xl flex items-center justify-between cursor-pointer" data-name="شماره کارت" onclick="handleCopy(event)">
               <span>0000</span>
               <span>0000</span>
               <span>0000</span>
@@ -54,5 +53,6 @@
         </div>
       </div>
     </div>
+    <script src="/src/main.ts"></script>
   </body>
 </html>

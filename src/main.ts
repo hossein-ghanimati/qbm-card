@@ -1,5 +1,5 @@
 
-
+// @ts-ignore
 const handleCopy = (e: Event) => {
   console.log("clicked")
   console.log(e)
