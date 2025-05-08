@@ -1,8 +1,7 @@
-
-const handleCopy = (e: Event) => {
+const handleCopy = (e) => {
   console.log("clicked")
   console.log(e)
-  const target = e.currentTarget as HTMLElement;
+  const target = e.currentTarget 
   const text = target?.innerText || '';
   //@ts-ignore
   const name = e.currentTarget.dataset?.name || '';
@@ -10,5 +9,3 @@ const handleCopy = (e: Event) => {
   alert(` ${name} کپی شد ✅`)
   navigator.clipboard.writeText(text);
 }
-// @ts-ignore
-window.handleCopy = handleCopy
